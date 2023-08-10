@@ -1,0 +1,1 @@
+ps aux | grep "[A-Za-z]$1 " | grep -v "grep"

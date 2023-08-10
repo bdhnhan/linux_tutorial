@@ -1,0 +1,1 @@
+lsof -i :$1 | awk !/PID/ | awk '{print $2}' | xargs kill
